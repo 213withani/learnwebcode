@@ -1,0 +1,9 @@
+.active {                                       /* This is the name of the class */
+     background-color:beige;     /* This is just saying if something is part of the "active" class that it will have a background color of beige */
+}
+.addNewItem {
+  background-color: green;
+  border: 0;
+  border-radius: 5%;
+  
+}
