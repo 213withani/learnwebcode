@@ -1,0 +1,29 @@
+body{
+  font-family: Heveltica, sans-serif;
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+container{
+  max-width: 700px;
+  margin: 0 auto;;
+}
+
+a,
+a:link,
+a:visited {
+  color: blue;
+}
+.ui-message p{
+  margin:0;
+}
+
+.ui-close{
+  background-color: #F2E1AC;
+  color: #8A7A49;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1px 6px;
+  cursor: pointer;
+}
