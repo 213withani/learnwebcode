@@ -1,1 +1,6 @@
 
+# MAR Meteor/Apollo/React
+
+https://www.youtube.com/watch?v=iEF3cFO9p_w
+Possible Issues:
+Make sure your folders and files are structured and in the correct place and order. My index.js file was in startup/index.js instead of startup/client/index.js so localhost:3000 was a blank page until I fixed it.
