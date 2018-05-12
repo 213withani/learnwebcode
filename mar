@@ -5,8 +5,37 @@
 Install Meteor
 
 ## Install and setup react.
+
+
+https://www.youtube.com/watch?v=K-R3bmsXpz0
+
+Rendering react component.
 https://www.youtube.com/watch?v=iEF3cFO9p_w
 Possible Issues:
 Make sure your folders and files are structured and in the correct place and order. My index.js file was in startup/index.js instead of startup/client/index.js so localhost:3000 was a blank page until I fixed it.
 
 ## Apollo Server
+Our server allows graphql and apollo to work together and be available in the client side as an API.
+Apollo is going to replace a lot of things in your meteor or express project: 
+* API
+* Will have mutations to replace your server side stuff (ie routes or meteor methods)
+
+BE will grab database and choose how to make it available to apollo or graphQL in the client side.
+
+Once setup: 
+* setup data container that contains a query that pulls what data you want.
+
+Created an apollo server inside our meteor app. Not connect to client just yet.
+
+Resolvers: Hits db and gets data. Db queries.
+Type defs: Where you define your schemas.
+Mutations: Updates, deletes, and inserts.
+
+Vid #5
+#5 Schema, Query
+https://www.youtube.com/watch?v=Qm7vzjTA318
+
+grahpiql
+http://localhost:3000/graphiql
+No schema yet so you will get this error:
+Error: Expected undefined to be a GraphQL schema.
