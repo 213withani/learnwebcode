@@ -52,3 +52,11 @@ I ran into issues:
 # Vid # 6
 # Connecting React To Apollo & Apollo DevTools 
 https://www.youtube.com/watch?v=a3poTOALrOc
+
+# Vid 8
+https://www.youtube.com/watch?v=IdtHO1os_Wc&list=PLLnpHn493BHFTDL9M1PKnxQwBwOZ8J-h4&index=8
+
+Noticed gql statement in App to only get the needed data and use it in react. Nice
+
+Resolutions data and type.
+loading boolean to see if app has loaded.
