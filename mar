@@ -39,3 +39,12 @@ grahpiql
 http://localhost:3000/graphiql
 No schema yet so you will get this error:
 Error: Expected undefined to be a GraphQL schema.
+
+I ran into issues:
+* Error: Expected undefined to be a GraphQL schema.
+* W20180512-17:01:19.867(-7)? (STDERR) TypeError: makeExecuatableSchema is not a function
+
+1. I had misspelling issue makeExecuatableSchema should be makeExecutableSchema
+2. Import had another mistake:  
+* import makeExecutableSchema from 'graphql-tools'; 
+* changed it to  import {makeExecutableSchema} from 'graphql-tools';
