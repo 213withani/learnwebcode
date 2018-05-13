@@ -48,3 +48,7 @@ I ran into issues:
 2. Import had another mistake:  
 * import makeExecutableSchema from 'graphql-tools'; 
 * changed it to  import {makeExecutableSchema} from 'graphql-tools';
+
+# Vid # 6
+# Connecting React To Apollo & Apollo DevTools 
+https://www.youtube.com/watch?v=a3poTOALrOc
